@@ -1,0 +1,19 @@
+<h2>Détail de l'activité :</h2>
+
+<p>{{ activite }}</p>
+
+<label for="titre">Modifier le titre :</label>
+
+<input
+  id="titre"
+  type="text"
+  [(ngModel)]="nouveauTitre"
+>
+
+<button (click)="sauvegarder()">
+  Sauvegarder
+</button>
+
+<button (click)="supprimeElem(index)">
+  Supprimer
+</button>

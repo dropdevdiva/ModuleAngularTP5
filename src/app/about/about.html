@@ -1,0 +1,7 @@
+<h2>Liste des activités</h2>
+
+<ul>
+  @for (objectif of activiteService.objectifs; track $index) {
+    <li>{{ objectif }}</li>
+  }
+</ul>
